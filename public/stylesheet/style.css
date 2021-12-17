@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Outfit:wght@300&display=swap");
+
+* {
+  border: 0;
+  margin: 0;
+  font-family: "Fraunces", serif;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=892&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg {
+  height: 100vh;
+  width: 100vw;
+}
+
+.search {
+  position: absolute;
+  right: 0;
+  width: 35%;
+  height: 100%;
+  /* background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px); */
+}
+
+.search form {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+form input {
+  width: 70%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 22px;
+  color: #1A374D;
+  text-align: center;
+  border-bottom: 1px solid #1A374D;
+}
+
+form button {
+  width: 20%;
+  border: none;
+  outline: none;
+  font-size: 30px;
+}
+
+.search h1 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #1A374D;
+  margin: 6rem 0;
+  margin-left: 30px;
+}
+
+
+.details li{
+  list-style:none;
+  color: #1A374D;
+}
+
+
+.content{
+  color: #1A374D;
+  width: 500px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.content h1{
+  font-size: 6rem;
+}
+
+.content h2{
+  font-size: 3rem;
+  margin-left: 15px;
+}
+
+
+nav{
+  padding-top:2rem;
+  padding-left: 3rem;
+} 
+
+.details{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav h3 {
+color: #1A374D;
+}
