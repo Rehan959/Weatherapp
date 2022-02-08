@@ -3,7 +3,7 @@ const request = require("request");
 var router = express.Router();
 
 router.get("/", (req, res, next) => {
-  res.render("index",{weather:null,error:null});
+  res.render("index", { weather: null, error: null });
 });
 
 router.post("/", (req, res) => {
@@ -32,7 +32,7 @@ router.post("/", (req, res) => {
           description: weatherDescription,
           max: weatherMax,
           min: weatherMin,
-          error:null
+          error: null,
         });
       }
     }
